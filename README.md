@@ -10,17 +10,17 @@ http://murataras.blogspot.com/2013/08/progressbox-with-javascript.html
 
 Samples usage:
 
-<code>
+<pre>
 function showProgress() {
     // show progress bar
     ProgressBox.show(&quot;Progress for 3 seconds.&quot;);
     doSomething();
 }
-</code>
+</pre>
 
-<code>
+<pre>
 function doSomething() {
     // hide after 3 seconds
     setTimeout(function () { ProgressBox.hide(); }, 3000);
 }
-</code>
+</pre>
