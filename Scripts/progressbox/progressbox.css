@@ -1,0 +1,36 @@
+﻿#progressbox-overlay
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 99999;
+    background-color: #000000;
+    opacity: 0.0;
+    display: none;
+}
+
+#progressbox
+{
+    position: fixed;
+    width: auto;
+    top:10px;
+    z-index: 100000;
+    background-color: #FFFF99;
+    color: #808080;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    -moz-border-radius: 8px;
+    -moz-box-shadow: rgba(0,0,0,0.4) 0 4px 16px;
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    display: none;
+}
+
+#progressbox .progressbox-progress
+{
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+    text-align: center;
+}
